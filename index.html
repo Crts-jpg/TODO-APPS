@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APPS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" id="todoInput" placeholder="Tambahkan todo baru...">
+        <button class="tambah" onclick="addItem()">Tambah</button>
+        <button class="hapus" onclick="clearDone()">Hapus</button>
+        <button class="bersihkan" onclick="sortTasks()">sortTasks</button>        
+        <ul id="todoList"></ul>
+    </div>    
+</body>
+</html>
